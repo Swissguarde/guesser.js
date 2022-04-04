@@ -1,0 +1,43 @@
+p{
+    max-width: 650px;
+    margin: 0 auto;
+}
+input{
+    padding: 4px 12px;
+    
+}
+body{
+    background-image: url(/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    position: relative;
+}
+.lastResult {
+    padding: 5px;
+    margin:  10px auto;
+    font-size: 17px;
+    color: #fff;
+}
+.guesses{
+    margin: 7px auto;
+}
+button{
+    padding: 8px 20px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+   
+    
+}
+@media (max-width : 760px){
+    .newBtn{
+        margin-left: 80px;
+    }
+    #ret{
+        margin: 10px 0 0 12px;
+
+    }
+}
